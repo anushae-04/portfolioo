@@ -1034,4 +1034,5 @@ const cardObs = new IntersectionObserver(entries=>{
   });
 },{threshold:0, rootMargin:'0px 0px -60px 0px'});
 
-document.querySelectorAll('.skill-card').forEach(el=>cardObs
+document.querySelectorAll('.skill-card').forEach(el=>scrollObserver.observe(el));
+
