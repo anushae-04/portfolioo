@@ -949,3 +949,14 @@ document.querySelectorAll('.skill-card').forEach(el=>cardObs.observe(el));
 
 /* Fallback: immediately show anything already in viewport */
 function showVisible(){
+  document.querySelectorAll('.reveal,.skill-card').forEach(el=>{
+    const r = el.getBoundingClientRect();
+    if(r.top < window.innerHeight) el.classList.add('visible');
+  });
+}
+showVisible();
+window.addEventListener('scroll', showVisible, {passive:true});
+</script>
+
+</body>
+</html>
