@@ -691,8 +691,8 @@ footer{
   .hero-name{ font-size:clamp(48px,13vw,80px); line-height:.88; margin-bottom:0; }
   .hero-subtitle{ font-size:12px; line-height:1.8; margin-top:14px; margin-bottom:24px; max-width:100%; }
   .cta-btn{ padding:11px 24px; font-size:10px; margin-bottom:20px; }
-  .social-row{ gap:12px; }
-  .social-row a{ width:38px; height:38px; font-size:14px; }
+  .social-row{ gap:16px; }
+  .social-row a{ width:44px; height:44px; font-size:16px; }
 
   #about{ padding:50px 20px; }
   .about-number{ display:none; }
@@ -746,7 +746,7 @@ footer{
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#education">Education</a></li>
-      <li><a href="mailto:anushae1314@gmail.com">Contact</a></li>
+      <li><a href="/cdn-cgi/l/email-protection#52333c27213a33376361636612353f333b3e7c313d3f">Contact</a></li>
     </ul>
   </div>
 </nav>
@@ -767,13 +767,13 @@ footer{
       A CSE student at VJEC who builds things for the web — focused on creating meaningful, beautiful digital experiences.
     </p>
 
-    <a href="mailto:anushae1314@gmail.com" class="cta-btn reveal reveal-delay-3"><span>Get in touch →</span></a>
+    <a href="/cdn-cgi/l/email-protection#dbbab5aea8b3babeeae8eaef9bbcb6bab2b7f5b8b4b6" class="cta-btn reveal reveal-delay-3"><span>Get in touch →</span></a>
 
     <div class="social-row reveal reveal-delay-3">
       <a href="https://github.com/anushae-04" target="_blank"><i class="fab fa-github"></i></a>
       <a href="https://www.linkedin.com/in/anush-a-e-60a91837b/" target="_blank"><i class="fab fa-linkedin"></i></a>
       <a href="https://www.instagram.com/anush.leoo/" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="mailto:anushae1314@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="/cdn-cgi/l/email-protection#debfb0abadb6bfbbefedefea9eb9b3bfb7b2f0bdb1b3"><i class="fas fa-envelope"></i></a>
     </div>
   </div>
 
@@ -887,11 +887,11 @@ footer{
     <a href="https://github.com/anushae-04" target="_blank">Github</a>
     <a href="https://www.linkedin.com/in/anush-a-e-60a91837b/" target="_blank">LinkedIn</a>
     <a href="https://www.instagram.com/anush.leoo/" target="_blank">Instagram</a>
-    <a href="mailto:anushae1314@gmail.com">Email</a>
+    <a href="/cdn-cgi/l/email-protection#dbbab5aea8b3babeeae8eaef9bbcb6bab2b7f5b8b4b6">Email</a>
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 /* CURSOR */
 window.scrollTo(0,0);
 if(history.scrollRestoration) history.scrollRestoration = 'manual';
@@ -949,15 +949,3 @@ document.querySelectorAll('.skill-card').forEach(el=>cardObs.observe(el));
 
 /* Fallback: immediately show anything already in viewport */
 function showVisible(){
-  document.querySelectorAll('.reveal,.skill-card').forEach(el=>{
-    const r = el.getBoundingClientRect();
-    if(r.top < window.innerHeight) el.classList.add('visible');
-  });
-}
-showVisible();
-window.addEventListener('scroll', showVisible, {passive:true});
-</script>
-
-</body>
-</html>
-
